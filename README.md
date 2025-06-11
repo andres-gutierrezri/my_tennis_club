@@ -71,7 +71,6 @@ pip install --upgrade pip
 python -m venv .venv
 
 # Activar el entorno virtual
-
 # Windows
 .\.venv\Scripts\activate
 
@@ -93,9 +92,6 @@ pip --version
 
 # Instalar las dependencias del proyecto
 pip install -r requirements.txt --no-cache-dir
-
-# Comprobar que las dependencias se han instalado correctamente
-pip check
 
 # Verificar la instalación de dependencias
 pip freeze

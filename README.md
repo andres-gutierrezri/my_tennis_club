@@ -7,6 +7,33 @@
 | Python   | 3.10 o superior |
 | Dependencias de Python | Ver `requirements.txt` |
 
+## Configuración inicial para Git
+
+# Configuración de Git
+```bash
+# Comprobar la versión de Git
+git --version
+
+# Configurar el nombre de usuario y correo electrónico
+git config --global user.name "Tu Nombre"
+git config --global user.email "tu_correo@example.com"
+
+# Configurar el almacenamiento de credenciales
+git config --global credential.helper store
+
+# Configurar la rama principal
+git config --global init.defaultBranch main
+
+# Configurar el editor de texto para los mensajes de commit
+git config --global core.editor "code --wait" # Para Visual Studio Code
+
+# Comprobar la configuración de Git
+git config --list
+
+# Comprobar los remotos de Git
+git remote -v
+```
+
 ## Instalación
 
 # Habilitar la Ejecución de Scripts en PowerShell
@@ -28,6 +55,13 @@ python --version
 pip --version
 
 # Actualizar pip
+# Windows
+python.exe -m pip install --upgrade pip --no-cache-dir
+
+# Linux
+python3 -m pip install --upgrade pip --no-cache-dir
+
+# Actualizar pip a la última versión
 pip install --upgrade pip
 ```
 

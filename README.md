@@ -57,7 +57,6 @@ pip --version
 # Actualizar pip
 # Windows
 python.exe -m pip install --upgrade pip --no-cache-dir
-
 # Linux
 python3 -m pip install --upgrade pip --no-cache-dir
 

@@ -31,7 +31,7 @@ pip --version
 pip install --upgrade pip
 ```
 
-# Instalar dependencias de Python
+# Instalar entorno virtual de Python
 ```bash
 # Instalar entorno virtual de Python
 python -m venv .venv
@@ -50,7 +50,7 @@ python -c "import sys; print(sys.prefix)"
 python -m pip install --upgrade pip --no-cache-dir
 ```
 
-# Instalar dependencias
+# Instalar dependencias para el proyecto
 ```bash
 # Comprobar la versión de pip
 pip --version
@@ -73,8 +73,8 @@ pip list --outdated
 django-admin --version
 ```
 
-## Uso inicial
-Para iniciar el proyecto, primero asegúrese de que el entorno virtual está activado. Luego, debe correr las siguientes instrucciones:
+## Uso inicial (Ejecutar el proyecto)
+Para comenzar a trabajar con el proyecto, asegúrese de que el entorno virtual está activado y que ha instalado todas las dependencias necesarias. A continuación, puede ejecutar el proyecto Django, debe correr las siguientes instrucciones:
 
 ```bash
 # Correr migraciones

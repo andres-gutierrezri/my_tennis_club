@@ -70,6 +70,8 @@ pip install --upgrade pip
 # Instalar entorno virtual de Python
 python -m venv .venv
 
+# Activar el entorno virtual
+
 # Windows
 .\.venv\Scripts\activate
 

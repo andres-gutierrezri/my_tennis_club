@@ -73,7 +73,6 @@ python -m venv .venv
 # Activar el entorno virtual
 # Windows
 .\.venv\Scripts\activate
-
 # Linux
 source .venv/bin/activate
 

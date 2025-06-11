@@ -62,6 +62,7 @@ pip install -r requirements.txt --no-cache-dir
 pip check
 
 # Verificar la instalación de dependencias
+pip freeze
 
 # Comprobar las dependencias instaladas con sus versiones
 pip list
